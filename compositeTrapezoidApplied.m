@@ -1,4 +1,7 @@
-% Exam 2b Question (1a)
+% Application of the composite trapezoid equation
+% Definite integral of f(x) is calculated analytically and numerically (using composite trapezoid),   
+% comparison of error and proof (by graph) that error converges o(h^2):
+
 p = -2*pi; % actual value, when definite integral is evaluated.
 n = arrayfun(@(x) 10^x,1:6); % n-values (sub intervals used by composite trapezoid rule.)
 f = @(x) x*x*cos(x);
